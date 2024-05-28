@@ -6,9 +6,9 @@ function Home() {
   const [inputValue, setInputValue] = useState('');
   const [inputStatus, setInputStatus] = useState('Todo');
   const [submittedTexts, setSubmittedTexts] = useState([]);
-  const [isEditing, setIsEditing] = useState(null);
-  const [editValue, setEditValue] = useState('');
-  const [editStatus, setEditStatus] = useState('');
+  const [setIsEditing] = useState(null);
+  const [setEditValue] = useState('');
+  const [setEditStatus] = useState('');
 
   const handleInputChange = (event) => {
     setInputValue(event.target.value);
